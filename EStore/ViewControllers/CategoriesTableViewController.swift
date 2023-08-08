@@ -68,11 +68,7 @@ class CategoriesTableViewController: UITableViewController {
             }
         }
         
-        
-       
-        
         return cell
-        
+
     }
-    
 }

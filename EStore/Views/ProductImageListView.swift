@@ -29,3 +29,10 @@ struct ProductImageListView: View {
 #Preview {
     ProductImageListView(images: [])
 }
+
+// Xode 14
+//struct ProductImageListView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ProductImageListView(images: [])
+//    }
+//}

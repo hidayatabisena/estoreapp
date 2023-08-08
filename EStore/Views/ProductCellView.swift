@@ -32,3 +32,10 @@ struct ProductCellView: View {
 #Preview {
     ProductCellView(product: Product(title: "Handmade Fresh Table", price: 345, description: "Andy shoes are designed to keeping in", images: [URL(string: "https://placeimg.com/640/480/any?r=0.9178516507833767")!], category: Category(id: 1, name: "Clothes", image: "https://placeimg.com/640/480/any?r=0.9178516507833767")))
 }
+
+// Xcode 14
+//struct ProductCellView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ProductCellView(product: Product(title: "Handmade Fresh Table", price: 345, description: "Andy shoes are designed to keeping in", images: [URL(string: "https://placeimg.com/640/480/any?r=0.9178516507833767")!], category: Category(id: 1, name: "Clothes", image: "https://placeimg.com/640/480/any?r=0.9178516507833767")))
+//    }
+//}

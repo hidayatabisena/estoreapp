@@ -192,11 +192,16 @@ struct AddProductViewControllerRepresentable: UIViewControllerRepresentable {
     }
 }
 
-struct AddProductViewController_Previews: PreviewProvider {
-    static var previews: some View {
-        AddProductViewControllerRepresentable()
-    }
+#Preview {
+    AddProductViewControllerRepresentable()
 }
+
+// Xcode 14
+//struct AddProductViewController_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AddProductViewControllerRepresentable()
+//    }
+//}
 
 extension AddProductViewController: UITextViewDelegate {
     

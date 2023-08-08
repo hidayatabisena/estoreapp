@@ -88,7 +88,4 @@ class StoreHTTPClient {
         let deleteProductResponse = try JSONDecoder().decode(DeleteProductResponse.self, from: data)
         return deleteProductResponse.rta ?? false
     }
-    
-    
-    
 }

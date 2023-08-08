@@ -49,3 +49,11 @@ struct CategoryPickerView: View {
 #Preview {
     CategoryPickerView(onSelected: { _ in })
 }
+
+// Xcode 14
+//struct CategoryPickerView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CategoryPickerView(onSelected: { _ in })
+//    }
+//}
+
